@@ -21,3 +21,26 @@ Notes:
 1 <= A.length = A[0].length <= 20
 0 <= A[i][j] <= 1"""
 
+def flipAndInvertImage(self, A):
+    """
+    :type A: List[List[int]]
+    :rtype: List[List[int]]
+    """
+    reverse = []
+    for lists in A:
+        lists = lists[::-1]
+        reverse.append(lists)
+    print(reverse)
+   
+    temp =[]
+    final =[]
+    for l in reverse:
+        for num in l:
+            if num == 0:
+                temp.append(1)
+            if num == 1:
+                temp.append(0)
+        final.append(temp)
+        temp = []
+    
+    return final
