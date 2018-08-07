@@ -9,3 +9,4 @@ def lowercase(s):
             ans.append(i)
 
     return("".join(ans))
+    
