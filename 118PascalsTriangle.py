@@ -21,7 +21,7 @@ def generate(self, numRows):
         :rtype: List[List[int]]
         """
         res, row = [], [1]
-        for _ in range(numRows):
+        for i in range(numRows):
             res.append(row)
             row = [1] + [row[i]+row[i-1] for i in range(1, len(row))] + [1]
-        return res
+        return res 
