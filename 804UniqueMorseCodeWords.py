@@ -18,4 +18,4 @@ def uniqueMorseRepresentations(words):
         answer.append(temp)
     print(answer)
     answer = set(answer)
-    return(len(answer))
+    return(len(answer)) 
