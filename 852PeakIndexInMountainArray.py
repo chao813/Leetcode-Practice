@@ -28,3 +28,6 @@ def peakIndexInMountainArray(self, A):
                 left = mid
             else:
                 right = mid
+
+
+                
