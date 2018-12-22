@@ -40,4 +40,4 @@ def findReplaceString(self, S, indexes, sources, targets):
                 S = S[:i] + t + S[i + len(s):]  
             else: 
                 S
-        return S
+        return S 
