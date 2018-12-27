@@ -15,7 +15,7 @@ class BSTNode():
   def __str__(self):
     string = "(" + str(self.data)
     if self.left:  string += str(self.left)
-    else:          string += "."
+    else:          string += "." 
     if self.right: string += str(self.right)
     else:          string += "."
     return string + ")"
